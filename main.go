@@ -14,7 +14,7 @@ const (
 	ParcelStatusDelivered  = "delivered"
 )
 
-type Parcel struct {
+type ParcelStore struct {
 	Number    int
 	Client    int
 	Status    string
